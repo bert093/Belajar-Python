@@ -1,4 +1,4 @@
-# kosong
+# kosong test
 # * 1. Fungsi tanpa pengembalian nilai
 def sapa(nama): # dalam contoh ini sapa adalah fungsi dan nama adalah parameter
     print(f"Halo {nama} ! Selamat datang di program saya")
