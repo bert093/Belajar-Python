@@ -1,4 +1,4 @@
-nama = "Syahril"  # *contoh string
+nama = "Syahril"  # * contoh string
 umur = 18         # * contoh integer
 tinggi = 1.75     # * contoh float/desimal
 angka = 23.7882123
