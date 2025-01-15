@@ -1,0 +1,1 @@
+print("Halo, {1}! Nama saya {0}.".format("Budi", "Andi"))
