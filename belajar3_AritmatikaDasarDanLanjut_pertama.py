@@ -6,7 +6,7 @@ hasil3 = a * b # perkalian
 hasil4 = a / b # pembagian 
 hasil5 = a // b # menghasilkan hasil pembagian dalam bilangan bulat
 hasil6 = a % b # hasil sisa pembagian
-hasil7 = a ** b
+hasil7 = a ** b # pengkat
 print(f'hasil 1 adalah {hasil}')
 print(f'hasil 2 adalah {hasil2}')
 print(f'hasil 3 adalah {hasil3}')

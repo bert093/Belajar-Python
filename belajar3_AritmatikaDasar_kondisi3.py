@@ -1,18 +1,18 @@
 ipk = int (input("Masukkan nilai IPK anda: "))
 
 if ipk >= 81:
-    print('Hasil IPK anda adalah A')
-elif ipk >= 80:
-    print("Hasil IPK anda adalah B+")
+    print('Nilai A')
+# elif ipk >= 80:
+#     print("Hasil IPK anda adalah B+")
 elif ipk >= 71:
-    print('Hasil IPK anda adalah B')
+    print('Nilai B+')
 elif ipk >= 61:
-    print('Hasil IPK anda adalah C')
+    print('Nilai B')
 elif ipk >= 51:
-    print('Hasil IPK anda adalah D')
+    print('Nilai C+')
 elif ipk >= 41:
-    print("Hasil IPK anda adalah E")
+    print("Nilai C")
 elif ipk >= 31:
-    print('Hasil IPK anda adalah F')
+    print('Nilai D')
 else:
-    print("Hasil IPK anda adalah F")
+    print("Tidak lulus")
