@@ -14,10 +14,10 @@ def generate_random_word(length):
 
 # Fungsi untuk mengetik selama 5 detik nonstop
 def type_random_words():
-    end_time = time.time() + 5  # batas waktu 5 detik
+    end_time = time.time() + 4  # batas waktu 5 detik
     while time.time() < end_time:
         word = generate_random_word(random.randint(1, 5)) #* membuat panjang kata bervariasi antara 3 sampai 8 karakter
-        pyautogui.write(word + " ", interval=0)  #* Tidak ada delay antar huruf,
+        pyautogui.write(word + "", interval=0)  #* Tidak ada delay antar huruf,
         #* memberikan tanda petik " " sehingga ada jarak antara karakternya (spasi)
 
 # Listener keyboard

@@ -4,4 +4,7 @@ list3 = [90, 80, 70, 60]
 
 print(list_1[2])
 print(list_2[1])
-print(list3[0])
+
+list3.remove(90)
+list3.append(0)
+print(list3)
